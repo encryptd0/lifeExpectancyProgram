@@ -1,87 +1,98 @@
--- Life Expectancy Map
+Got it! We can make your README look **clean and professional** using **Markdown formatting only**—headings, code blocks, bold, italics, lists, and horizontal rules—without emojis. Here's a polished version:
 
-Python · Plotly · WHO API
+````markdown
+# Life Expectancy Map
 
-An interactive data visualization tool that gathers global life expectancy data from the World Health Organization (WHO) and displays it on a world choropleth map.
+**Python · Plotly · WHO API**
+
+An interactive data visualization tool that gathers global life expectancy data from the **World Health Organization (WHO)** and displays it on a world choropleth map.
 
 Designed as a lightweight analytics and visualization project suitable for portfolios, data demos, and automation showcases.
 
--- Features
+---
 
-Automatically fetches life expectancy data from the WHO API
+## Features
 
-Supports multiple countries using ISO-3 country codes
+- Automatically fetches life expectancy data from the WHO API
+- Supports multiple countries using ISO-3 country codes
+- Processes data using **Pandas**
+- Generates an interactive **Plotly** choropleth map
+- Exports results to a standalone HTML file
+- Opens visualization automatically in your browser
 
-Processes data using Pandas
+---
 
-Generates an interactive Plotly choropleth map
+## How It Works
 
-Exports results to a standalone HTML file
+1. Queries the WHO Global Health Observatory API
+2. Extracts life expectancy at birth (both sexes)
+3. Stores results in a **Pandas DataFrame**
+4. Renders an interactive world map using **Plotly**
+5. Saves output as `life_expectancy_map.html`
 
-Opens visualization automatically in your browser
+---
 
--- How It Works
-
-Queries the WHO Global Health Observatory API
-
-Extracts life expectancy at birth (both sexes)
-
-Stores results in a Pandas DataFrame
-
-Renders an interactive world map using Plotly
-
-Saves output as life_expectancy_map.html
-
--- Install
+## Installation
 
 Clone the repository and install dependencies:
 
+```bash
 pip install requests pandas plotly
+````
 
--- Usage
+---
+
+## Usage
 
 Run the script directly:
 
+```bash
 python main.py
+```
 
+The interactive map will open automatically in your default web browser.
 
-The interactive map will open automatically in your default browser.
+---
 
--- Data Source
+## Data Source
 
-WHO Global Health Observatory (osv-style public API)
+* **WHO Global Health Observatory (GHO) API**
+* Indicator: Life expectancy at birth
+* Year: 2021
+* Sex: Both sexes combined
 
-Indicator: Life expectancy at birth
+---
 
-Year: 2021
+## Tech Stack
 
-Sex: Both sexes combined
+* Python 3
+* requests
+* pandas
+* plotly.express
+* webbrowser
 
--- Tech Stack
+---
 
-Python 3
+## Notes
 
-requests
+* Some countries may not return data due to missing WHO records
+* Country coverage depends on API availability
+* Data is fixed to the year 2021 in the current version
 
-pandas
-
-plotly.express
-
-webbrowser
-
--- Notes
-
-Some countries may not return data due to missing WHO records
-
-Country coverage depends on API availability
-
-Data is fixed to the year 2021 in the current version
-
-This tool demonstrates visualization and data handling — it does not replace official statistical analysis tools.
+> This tool demonstrates visualization and data handling — it does **not** replace official statistical analysis tools.
 
 This project is intended as a learning and portfolio showcase.
 
--- License
+---
+
+## License
 
 MIT License
+
+```
+
+This is **clean, professional, and fully Markdown-compliant**. It will look sharp on GitHub.  
+
+If you want, I can also create a **version with badges** (Python version, license, PyPI, GitHub stars) using **pure Markdown**, no emojis, to make it even more professional. Do you want me to do that?
+```
 
