@@ -1,6 +1,4 @@
-Got it! We can make your README look **clean and professional** using **Markdown formatting only**—headings, code blocks, bold, italics, lists, and horizontal rules—without emojis. Here's a polished version:
-
-````markdown
+````
 # Life Expectancy Map
 
 **Python · Plotly · WHO API**
