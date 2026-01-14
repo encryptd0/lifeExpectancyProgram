@@ -89,10 +89,3 @@ This project is intended as a learning and portfolio showcase.
 
 MIT License
 
-```
-
-This is **clean, professional, and fully Markdown-compliant**. It will look sharp on GitHub.  
-
-If you want, I can also create a **version with badges** (Python version, license, PyPI, GitHub stars) using **pure Markdown**, no emojis, to make it even more professional. Do you want me to do that?
-```
-
