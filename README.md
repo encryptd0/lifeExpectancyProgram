@@ -1,4 +1,3 @@
-````
 # Life Expectancy Map
 
 **Python · Plotly · WHO API**
@@ -86,4 +85,5 @@ This project is intended as a learning and portfolio showcase.
 ## License
 
 MIT License
+
 
